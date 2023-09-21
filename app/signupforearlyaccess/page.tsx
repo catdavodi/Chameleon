@@ -80,7 +80,7 @@ export default function SignUpForEarlyAccess() {
             />
           </FormControl>
           <FormControl w={{ base: '100%', md: '40%' }}>
-            <Button
+            <Button 
               colorScheme={state === 'success' ? 'green' : 'green'}
               isLoading={state === 'submitting'}
               w="100%"

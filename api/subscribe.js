@@ -4,7 +4,7 @@ export default async function handler(req, res) {
     if (req.method === 'POST') {
       try {
         const { email } = req.body;
-  
+   
         // Here, you can save the email to a database or file, or send it to an external service
         // Example: Save the email to a JSON file
         const fs = require('fs');

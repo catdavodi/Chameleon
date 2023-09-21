@@ -91,7 +91,7 @@ export default function HeroSection() {
             
             <Container maxW={'3xl'} zIndex="1">
                 <Icon
-                as={Arrow}
+                as={Arrow} 
                 color={useColorModeValue('gray.800', 'gray.300')}
                 w={71}
                 position={'absolute'}
@@ -103,7 +103,7 @@ export default function HeroSection() {
         </Stack>
       </Container>
       </Flex> 
-  );
+  ); 
 }
 
 const Arrow = createIcon({

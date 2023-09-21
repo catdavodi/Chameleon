@@ -102,7 +102,7 @@ export default function HeroSection() {
           </Stack>
         </Stack>
       </Container>
-      </Flex>
+      </Flex> 
   );
 }
 
